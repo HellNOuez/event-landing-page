@@ -4,11 +4,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
 </head>
-<body>
+<!--<body>
     <nav class="navbar navbar inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -21,13 +22,50 @@
 
             </div>
         </div>
-    </nav>
-    <div class="jumbotron">
-        <div class="container">
-            <h1>Hello World!</h1>
-            <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore hic blanditiis officia provident accusantium, eligendi reprehenderit laudantium tempora omnis vitae?</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate architecto modi nobis ipsa ab.</p>
-        
+    </nav>-->
+    <body class="bg-dark" data-spy="scroll" data-target=".navbar" data-offset="50">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+              <div class="navbar-header">
+            
+              </div>
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>                  
+              </button>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-left">
+            <a class="navbar-brand" href="/index.html">Take Home</a>
+            </ul>
+              <ul class="nav navbar-nav navbar-right">
+                 <li class="active"><a href="#" target="_blank">Speakers</a></li>
+                <li><a href="#" target="_blank">Tickets</a></li>
+                <li><a href="#" target="_blank">Venue</a></li>
+              </ul>
+            </div>
+          </nav>
+    <div class="jumbotron text-center">
+        <div class="container-fluid">
+            <h1>Clear Statement about Your Event</h1>
+            <p>Secondary header providing additional information</p>
+            <button type="button" class="btn btn-primary btn-lg">Get Tickets</button>
         </div>
     </div>
+    <div class="container-fluid text-center">    
+      <div class="container"> 
+        <div class="row content">
+        <h1>The Speakers</h1>
+        <p>Write a few lines about the event speakers to highlighter their expertise in the field.</p>
+        </div>
+          </div>
+        <hr>
+        <h1>Get Your Tickets Today!</h1>
+        <p>Each ticket includes: 20 speakers, 1000 participants, 15 sessions, 5 keynotes.</p>
+        <hr>
+        <h1>The Venue</h1>
+        <p>Our event will be held at the Main Office headquarters at Provost & East Building 145 City Road, London.</p>
+    </div>
+  </div>
 </body>
